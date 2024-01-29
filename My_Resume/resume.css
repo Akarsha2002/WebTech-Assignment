@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: whitesmoke;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(255, 255, 255, 0.401);
+}
+
+.container .left {
+  position: relative;
+  background: rgba(0, 0, 0, 0.86);
+  padding: 40px;
+}
+
+.profileText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.profileText .image {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .image img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profileText h2 {
+  color: aliceblue;
+  font-size: 15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.profileText h2 span {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.contactInfo {
+  padding-top: 15px;
+}
+
+.title {
+  color: aliceblue;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.contactInfo ul {
+  position: relative;
+}
+
+.contactInfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+  display: inline;
+  width: 30px;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.contactInfo ul li span {
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.educationInfo li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.educationInfo h5 {
+  color: rgb(32, 176, 224);
+  font-weight: 500;
+}
+
+.educationInfo h4:nth-child(2) {
+  color: aliceblue;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.educationInfo h4 {
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.languages .percent {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: black;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.languages .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(35, 173, 220);
+}
+
+.languages .text {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.languages ul li {
+  list-style: none;
+}
+
+.container .right {
+  position: relative;
+  background: white;
+  padding: 40px;
+}
+
+.about {
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+
+.about:last-child {
+  margin-bottom: 0;
+}
+
+.title2 {
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.751);
+}
+
+.about .box {
+  /* display: flex;
+  flex-direction: row; */
+  margin: 20px 0;
+}
+
+.about .box .internship {
+  min-width: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about .box .internship h5 {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.521);
+  font-weight: 600;
+  font-size: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about .box .text h4 {
+  text-transform: capitalize;
+  color: rgb(34, 181, 230);
+  font-size: 15px;
+}
+
+.skills .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .title2 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.skills .box h4 {
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.745);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.skills .box .percent {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: black;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgb(35, 173, 220);
+}
+
+.Interest .title2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.Interest ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Interest ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.Interest ul li .fa {
+  color: rgb(27, 171, 219);
+  display: grid;
+  flex-direction: row;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Interest ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about .box {
+    flex-direction: column;
+  }
+  .about .box .internship {
+    margin-bottom: 5px;
+  }
+
+  .Interest ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

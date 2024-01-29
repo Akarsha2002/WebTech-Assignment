@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.col .navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.col .navbar h3 {
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: auto;
+}
+
+.col .navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  border-radius: 8px;
+}
+
+.col .navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+
+.col .navbar a:hover {
+  color: aqua;
+}
+
+.container {
+  width: 100%;
+  padding: 35px 10%;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col .title {
+  color: black;
+  padding: 0px 0px 20px 30px;
+  margin-top: 20px;
+}
+
+.col .contents {
+  padding: 0px 30px;
+  border-left: 2px solid #babaab;
+}
+
+.col .contents .box {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+.col .contents .box .table {
+  width: 100%;
+  align-items: center;
+}
+
+.col .contents .box th,
+td {
+  padding: 10px;
+}
+
+.col .contents .box tr {
+  background-color: rgb(147, 141, 141);
+  text-align: center;
+}
+.col .contents .box:hover {
+  box-shadow: 0px 3px 12px 0px black;
+  border: 1px solid transparent;
+}
+
+.col .contents .box::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  right: calc(100% + 22px);
+  top: 0;
+  background-color: black;
+  border: 2px solid white;
+}
+
+.box h4 {
+  position: relative;
+  color: black;
+}
+
+.box h3 {
+  font-size: 19px;
+  padding: 10px 0px 6px;
+  color: rgba(0, 0, 0, 0.759);
+}
+
+.col .contact {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.col .contact h3 {
+  color: white;
+  display: flex;
+  margin: 15px;
+  align-items: center;
+}
+
+.col .contact a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.col .contact a:hover {
+  color: aqua;
+}

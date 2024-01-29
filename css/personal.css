@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+  border-radius: 15%;
+  position: relative;
+  margin-right: 10px;
+}
+
+.navbar h3 {
+  color: aliceblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  border-radius: 8px;
+}
+
+.navbar a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  color: rgb(49, 182, 227);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 350px;
+  position: relative;
+  margin-top: 85px;
+  margin-bottom: 87px;
+  margin-right: 20px;
+}
+
+.box:hover {
+  box-shadow: 0px 3px 12px 0px black;
+  border: 1px solid transparent;
+}
+
+.about h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about p {
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+.contact {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.contact h3 {
+  color: white;
+  display: flex;
+  margin: 15px;
+  align-items: center;
+}
+
+.contact a {
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  font-size: 30px;
+}
+
+.contact a:hover {
+  color: rgb(49, 182, 227);
+}
